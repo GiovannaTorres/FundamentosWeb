@@ -1,0 +1,164 @@
+/*Estilos index.html*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(226, 228, 255);
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/62/Starsinthesky.jpg');
+    background-size: cover;
+}
+
+nav {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#menu li {
+    display: inline;
+    font-weight: bolder;
+    padding: 8px;  
+ }
+
+#menu li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+ }
+ 
+ #menu li a:hover {
+    color: #4143a1;
+    transition:0.2s;
+ }
+
+ h1{
+    margin-left: 10px;
+}
+    #nome-menu{
+        font-size: 40px;
+    }
+
+ header {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 700px;
+ }
+
+.container {
+    display: flex;
+    background-color: rgba(2, 5, 24, 0.877);
+    width: 800px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto; 
+    -webkit-box-shadow: 0px 0px 19px 3px #8C78FF; 
+    box-shadow: 0px 0px 19px 3px #8C78FF;
+}
+
+.container > #fotos{
+    display: flex;
+    background-color: #34374b0c;
+    flex-flow: row wrap;
+    width: 700px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#fotos > .tm-imgs{
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 12px;
+    margin-bottom: 25px;
+    width: 300px;
+}
+
+#spotify {
+    width: 700px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 50px;
+}
+
+
+/*Estilos contato.html*/
+
+.container > #formulario {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 700px;
+}
+
+.container > #info {
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 700px;
+}
+
+button {
+    width: 6rem;
+    max-width: 10rem;
+    background: #c68ced;
+    padding: .5rem .5rem;
+    margin: 1rem auto;
+    border-radius: 3px;
+    border: 1px solid white;
+    font-size: 1rem;
+  -webkit-box-shadow: 2px 6px 15px 5px rgba(0,0,0,0.66); 
+box-shadow: 2px 6px 15px 5px rgba(0,0,0,0.66);
+}
+
+button:hover {
+  background-color: #BEF9F0;
+	color: #6C73FA;
+	transition:0.2s;
+}
+
+input {
+    width: 500px;
+      max-width: 500px;
+      background: #c68ced;
+      padding: .5rem .5rem;
+      margin: 1rem auto;
+      border-radius: 3px;
+      border: 1px solid white;
+      font-size: 1rem;
+      -webkit-box-shadow: 6px 6px 26px 1px #000000, inset 0px 0px 15px 3px #FFFFFF; 
+    box-shadow: 6px 6px 26px 1px #000000, inset 0px 0px 15px 3px #FFFFFF;
+  }
+
+  textarea {
+        width: 500px;
+          max-width: 500px;
+          background: #c68ced;
+          padding: .5rem .5rem;
+          margin: 1rem auto;
+          border-radius: 3px;
+          border: 1px solid white;
+          font-size: 1rem;
+          -webkit-box-shadow: 6px 6px 26px 1px #000000, inset 0px 0px 15px 3px #FFFFFF; 
+    box-shadow: 6px 6px 26px 1px #000000, inset 0px 0px 15px 3px #FFFFFF;
+  }
+
+  header li {
+    display: inline;
+    padding: 15px;  
+ }
+
+ header li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+ }
+ 
+ header li a:hover {
+    color: #4143a1;
+    transition:0.2s;
+ }
+
+ ul {
+     margin-top: 50px;
+     margin-bottom: 50px;
+     margin-left: auto;
+     margin-right: auto;
+ }
